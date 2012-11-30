@@ -2,6 +2,7 @@ name = Club Newsletter
 description = Newsletter
 core = 7.x
 package = Club
+php = 5.2.4
 version = 7.x-1.0
 project = club_newsletter
 dependencies[] = features
