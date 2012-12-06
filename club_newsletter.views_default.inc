@@ -306,7 +306,7 @@ print substr($data->field_field_birthdate[0][\'raw\'][\'value\'],5,5);
   $handler->display->display_options['sorts']['field_birthdate_value']['id'] = 'field_birthdate_value';
   $handler->display->display_options['sorts']['field_birthdate_value']['table'] = 'field_data_field_birthdate';
   $handler->display->display_options['sorts']['field_birthdate_value']['field'] = 'field_birthdate_value';
-  /* Contextual filter: Field: Chapter/Club (field_chapter) */
+  /* Contextual filter: Field: Club/Chapter (field_chapter) */
   $handler->display->display_options['arguments']['field_chapter_target_id']['id'] = 'field_chapter_target_id';
   $handler->display->display_options['arguments']['field_chapter_target_id']['table'] = 'field_data_field_chapter';
   $handler->display->display_options['arguments']['field_chapter_target_id']['field'] = 'field_chapter_target_id';
