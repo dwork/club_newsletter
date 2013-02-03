@@ -85,6 +85,12 @@ function club_newsletter_field_default_fields() {
           'type' => 'text_default',
           'weight' => '2',
         ),
+        'entityreference_view_widget' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
         'teaser' => array(
           'label' => 'hidden',
           'module' => 'text',
@@ -154,7 +160,6 @@ function club_newsletter_field_default_fields() {
           ),
           'sort' => array(
             'direction' => 'ASC',
-            'field' => 'field_date:value',
             'property' => 'title',
             'type' => 'property',
           ),
@@ -183,6 +188,12 @@ function club_newsletter_field_default_fields() {
           ),
           'type' => 'entityreference_label',
           'weight' => 4,
+        ),
+        'entityreference_view_widget' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -341,6 +352,12 @@ function club_newsletter_field_default_fields() {
           'type' => 'text_default',
           'weight' => '3',
         ),
+        'entityreference_view_widget' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
         'teaser' => array(
           'label' => 'above',
           'settings' => array(),
@@ -446,6 +463,12 @@ function club_newsletter_field_default_fields() {
           'type' => 'text_default',
           'weight' => '1',
         ),
+        'entityreference_view_widget' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
         'teaser' => array(
           'label' => 'above',
           'settings' => array(),
@@ -534,6 +557,12 @@ function club_newsletter_field_default_fields() {
         ),
         'email_textalt' => array(
           'label' => 'hidden',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+        'entityreference_view_widget' => array(
+          'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
           'weight' => 0,

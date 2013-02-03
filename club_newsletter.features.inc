@@ -27,9 +27,9 @@ function club_newsletter_views_api() {
 function club_newsletter_node_info() {
   $items = array(
     'simplenews' => array(
-      'name' => t('Weekly Newsletter'),
+      'name' => t('Simplenews newsletter'),
       'base' => 'node_content',
-      'description' => t('Weekly bulletin: upcoming speakers and events, plus Rotary news and events in our community, district and around the world. If you have an interesting Rotary tidbit, send it to newsletter@southvalleyrotary.org'),
+      'description' => t('A newsletter issue to be sent to subscribed email addresses.'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',

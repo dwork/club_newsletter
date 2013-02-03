@@ -16,6 +16,7 @@ function club_newsletter_taxonomy_default_vocabularies() {
       'hierarchy' => '0',
       'module' => 'simplenews',
       'weight' => '0',
+      'metatags' => array(),
       'rdf_mapping' => array(
         'rdftype' => array(
           0 => 'skos:ConceptScheme',
